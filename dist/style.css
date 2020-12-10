@@ -1,0 +1,197 @@
+.slide1 {
+  display: inline-block;
+  padding: 5% 0px 0% 35%;
+}
+
+.slide-1-sub {
+  float: right;
+  width: 50%;
+  padding: 10% 0 0 0;
+}
+
+.slide-1-sub p{
+  background: rgba(192, 207, 58, 1);
+  color: #fff;
+  font-family: monospace;
+  width: 80%;
+
+  -webkit-animation: bummer 3s;
+  animation: bummer 3s;
+  -webkit-transform: scale(0,0); 
+  transform: scale(0,0);
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  animation-delay: 3s;
+}
+
+
+.slide1 img{
+  -webkit-animation: bummer 4s;
+  animation: bummer 4s;
+  -webkit-transform: scale(0,0); 
+  transform: scale(0,0);
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.slide-2-wrap, .slide-3-wrap {
+  width: 90%;
+  display: inline-block;
+  padding: 2%;
+  margin: 4%;
+}
+
+.slide-2-left {
+  width: 30%;
+  display: inline-block;
+  float: left;
+}
+
+.slide-2-left ul li {
+  font-size: 30px;
+  padding: 15px;
+}
+
+.slide-2-right {
+  width: 69%;
+  display: inline-block;
+  float: right;
+}
+
+.slide-2-wrap img {
+  margin: auto;
+  vertical-align: middle;
+  padding: 20px;
+}
+
+.slide-2-wrap table tr td {
+  vertical-align: middle;
+}
+
+.slide-2-btm, .slide-3-btm {
+  width: 100%;;
+  display: inline-block;
+
+}
+
+.slide-2-btm p, .slide-3-btm p {
+  font-size: 25pt;
+  color: #fff;
+  padding: 0 50px 0px 0px;
+}
+
+.slide-2-btm p img {
+  padding: 8px 0px 20px 20px;
+}
+
+.slide-consider {
+  background: rgb(64, 64, 64);
+}
+
+.bg-yellow {
+  background: rgba(192, 207, 58, 1);
+}
+
+.bt-consider {
+  background: rgba(192, 207, 58, 1);
+  width: 100%;
+  padding: 30px;
+}
+
+.slide-2-left ul li{
+    position: relative;
+    left: -3000px;
+    -webkit-animation: slide 0.5s forwards;
+    -webkit-animation-delay: 2s;
+    animation: slide 0.5s forwards;
+    animation-delay: 2s;
+}
+
+.slide-2-right .slide2-img{
+    position: relative;
+    left: -3000px;
+    -webkit-animation: slide 0.5s forwards;
+    -webkit-animation-delay: 2s;
+    animation: slide 0.5s forwards;
+    animation-delay: 2s;
+}
+
+.slide2-img { 
+  /* display: none;  */
+    left: -3000px;
+    -webkit-animation: slide 0.5s forwards;
+    -webkit-animation-delay: 2s;
+    animation: slide 0.5s forwards;
+    animation-delay: 2s;
+}
+
+/* SLIDE 3 */
+
+.slide-3-left {
+  width: 100%;
+  display: inline-block;
+  float: left;
+}
+
+.slide3-consider-btm1 {
+  width: 7%;
+  vertical-align: top;
+  display: inline-block;
+}
+
+.slide3-consider-btm2 {
+  width:80%;
+  display: inline-block;
+}
+
+/* .slide3-consider-p1 {
+  font-size: 25pt;
+} */
+
+.slide3-consider-p2 {
+  font-size: 20pt !important;
+}
+
+
+.slide-3-btm .slide-consider{
+  padding: 10px 15px 10px 20px;
+}
+/* .bt-consider, .slide-consider{ display: none;} */
+
+/* css Animations */
+
+@-webkit-keyframes bummer {
+  100% {
+      -webkit-transform: scale(1,1); 
+  }
+}
+
+@keyframes bummer {
+  100% {
+      transform: scale(1,1); 
+  }
+}
+
+
+@-webkit-keyframes slide {
+  100% { left: 0; }
+}
+
+@keyframes slide {
+  100% { left: 0; }
+}
+
+.slide-2-left ul li:nth-child(3n+1) {
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+}
+
+.slide-2-left ul li:nth-child(3n+2) {
+  -webkit-animation-delay: 1.0s;
+  animation-delay: 1.0s;
+}
+
+.slide-2-left ul li:nth-child(3n+3) {
+  -webkit-animation-delay: 1.5s;
+  animation-delay: 1.5s;
+}
